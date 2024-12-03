@@ -12,6 +12,5 @@ int main()
 	printf("The address = %p\n", &b);
 
 
-
 	return 0;
 }
