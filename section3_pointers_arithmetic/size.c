@@ -22,6 +22,11 @@ int main()
 	printf("Size of 'a': %ld bytes\n", sizeof('a'));
 	printf("Size of \"a\": %ld bytes\n", sizeof("a"));
 
+	int *ptr;
+	double *ptr2;
+	printf("Size of pointer: %ld bytes\n", sizeof(ptr));
+	printf("Size of pointer2: %ld bytes\n", sizeof(ptr2));
+
 	return 0;
 }
 
