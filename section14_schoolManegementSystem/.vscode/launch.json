@@ -1,0 +1,20 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	 "configurations": [
+		{
+		  "name": "Debug C Program",         // 設定の名前
+		  "type": "cppdbg",                 // デバッガのタイプ（C/C++用）
+		  "request": "launch",              // 実行するデバッグ動作
+		  "program": "${workspaceFolder}/a.out", // 実行するプログラム（コンパイル後のバイナリパス）
+		  "args": [],                       // プログラムに渡す引数（必要に応じて指定）
+		  "stopAtEntry": false,             // エントリポイントで停止
+		  "cwd": "${workspaceFolder}",      // カレントディレクトリ（ワークスペースフォルダを設定）
+		  "externalConsole": true,         // 外部ターミナルを使用しない
+		  "MIMode": "lldb",                  // デバッガモード（通常はgdb）
+		  "preLaunchTask": "build"          // デバッグ前に実行するビルドタスク（tasks.jsonと連携）
+		}
+	  ]
+}
